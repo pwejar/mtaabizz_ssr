@@ -6,13 +6,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
     "dev:ssr": "ng run app:serve-ssr",
     "serve:ssr": "node dist/app/server/main.js",
+    "serve": "node dist/app/server/main.js",
     "build:ssr": "ng build && ng run app:server",
+    "build": "ng build && ng run app:server",
     "prerender": "ng run app:prerender"
   },
   "private": true,
