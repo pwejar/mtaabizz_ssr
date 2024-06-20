@@ -1,7 +1,7 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.pwejar.mtaabiz-web',
+  appId: 'io.ionic.starter',
   appName: 'mtaabizz_ssr',
   webDir: 'www'
 };
